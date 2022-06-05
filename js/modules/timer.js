@@ -1,6 +1,6 @@
 function timer() {//Timer
 
-    const deadline = '2022-06-01';
+    const deadline = '2022-09-01';
     function getTimeRemainding(endtime) {
         const total = Date.parse(endtime) - Date.parse(new Date()),
             days = Math.floor(total / 1000 / 60 / 60 / 24),
